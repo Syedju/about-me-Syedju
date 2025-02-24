@@ -1,0 +1,31 @@
+body {
+    font-family:"Sacramento";
+background-color:#cbcac7;
+color: #1c2418;
+}
+
+hi, h2, h3, h4, h5, h6 {
+    font-family:"lora ital";
+    font: size 40pt;
+}
+
+header {
+    text-align: center;
+}
+
+#hero{
+    color:#8E4129;
+    border: 2px solid #50EF7C;
+    background-color:#C1D6CF;
+text-align: center;
+padding: 10px;
+
+}
+#hero img {
+width: 300px;
+
+}
+
+#bio {
+    text-align: center;
+}
