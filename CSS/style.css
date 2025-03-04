@@ -1,12 +1,13 @@
 body {
     font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
 background-color:#cbcac7;
 color: #1c2418;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Times New Roman";
-    font-size:60pt;
+    font-size: 60px;
 }
 
 h1{
@@ -45,8 +46,6 @@ width: 300px;
 #floadingBob {
 
     Float:left;
-    margin-right:1rem;
-    border:1px solid black;
-    clear: both;
-position:absolute;
+    margin-right:2rem;
+        clear: both;
 }
