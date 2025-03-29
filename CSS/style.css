@@ -2,10 +2,14 @@ body {
     font-family:'Times New Roman', Times, serif;
     background-color:#cbcac7;
     color: #1c2418;
+    text-align: center;
+    
+    
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Times New Roman";
+    
     
 }
 
@@ -15,6 +19,7 @@ font-size:  40px;
 }
 
 h2{
+    font-size: 30px;
     text-align: center;
 
 }
@@ -28,13 +33,15 @@ header {
     border: 10px solid #789a2e;
     border-bottom-left-radius: 100px;
     border-bottom-right-radius: 100px;
+    
 
     box-shadow: 25px 25px 5px rgba(0,0,0,.2)inset;
 
 background-color:#C1D6CF;
-text-align: center;
+
 padding: 10px;
 margin: 30px;
+
 
 }
 
@@ -42,6 +49,7 @@ margin: 30px;
 
 #hero img {
 width: 300px;
+
 
 }
 /* Bio Section*/
@@ -62,6 +70,7 @@ width: 300px;
 
 #gallery {
     border: 2px solid#61a5ed;
+    
 }
 
 #gallery img {
