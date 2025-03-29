@@ -1,4 +1,0 @@
-# README
-
-
-Syed Uddin
