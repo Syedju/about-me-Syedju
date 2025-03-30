@@ -81,3 +81,18 @@ width: 300px;
 #gallery figure{
     text-align: "center";
 }
+/*Literature */
+#lit{
+    border:2px solid #61a5ed;
+    margin-bottom: 2rem;
+}
+#lit div {
+padding:2rem;
+max-width: 40rem;
+margin:0 auto;
+}
+
+
+
+
+
