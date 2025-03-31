@@ -81,6 +81,7 @@ width: 300px;
 #gallery figure{
     text-align: "center";
 }
+
 /*Literature */
 
 #lit {
@@ -92,6 +93,28 @@ padding:2rem;
 max-width: 40rem;
 margin:0 auto;
 }
+
+#lit div p {
+padding:0.3rem 0;
+clear:both;
+}
+
+/*Dropcaps*/
+
+#lit div p:first-letter {
+
+    color:red;
+    float:left;
+    font-size: 3em;
+    padding:5em;
+    line-height:.65;
+    border:1px solid black
+
+
+}
+
+    
+
 
 
 
