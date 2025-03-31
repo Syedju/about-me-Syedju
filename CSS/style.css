@@ -4,13 +4,12 @@ body {
     color: #1c2418;
     text-align: center;
     
-    
-}
+    }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Times New Roman";
-    
-    
+    text-align-last: center;
+       
 }
 
 h1{
@@ -18,7 +17,7 @@ h1{
 font-size:  40px;
 }
 
-h2{
+h2 {
     font-size: 30px;
     text-align: center;
 
@@ -29,21 +28,20 @@ header {
 }
 
 #hero, footer {
-    color:#8E4129;
-    border: 10px solid #789a2e;
-    border-bottom-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    
-
-    box-shadow: 25px 25px 5px rgba(0,0,0,.2)inset;
-
+color:#8E4129;
+border: 10px solid #789a2e;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+box-shadow: 25px 25px 5px rgba(0,0,0,.2)inset;
 background-color:#C1D6CF;
 
 padding: 10px;
+
 margin: 30px;
 
 
 }
+
 
 /* Hero Section*/
 
@@ -61,11 +59,11 @@ width: 300px;
 
 /* Hobbies Section*/
 
-#hobbies ul :nth-last-child(even){
+#hobbies ul :nth-last-child(even) {
     color: #8E4129;
 
-
 }
+
 /* Gallery Section*/
 
 #gallery {
@@ -75,7 +73,7 @@ width: 300px;
 
 #gallery img {
 
-    max-width:100% ;
+    max-width:100%;
 }
 
 #gallery figure{
@@ -97,23 +95,28 @@ margin:0 auto;
 #lit div p {
 padding:0.3rem 0;
 clear:both;
+margin:0 auto;
 }
 
 /*Dropcaps*/
 
-#lit div p:first-letter {
+#lit div p:nth-child(3n+1)::first-letter {
 
     color:red;
+    background-image: radial-gradient(#ffff);
     float:left;
     font-size: 3em;
-    padding:5em;
+    padding:25em;
+    margin-right:25em;
     line-height:.65;
-    border:1px solid black
-
-
+    border: 4px outset #ffff;
+    text-shadow: 2px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+    border-top-left-radius: .2em;
+    border-bottom-right-radius:.2em;
 }
-
     
+
 
 
 
